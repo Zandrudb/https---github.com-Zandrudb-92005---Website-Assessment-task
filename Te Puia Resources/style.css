@@ -3,6 +3,7 @@ body{
 }
 img{
   width: 100%;
+  border-radius: 5px;
 }
 #navbar {
   overflow: hidden;
@@ -57,7 +58,7 @@ img{
 }
 .hero-image{
   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5)),
-  url("20240626_111235.jpg");
+  url("TePuia_1.jpg");
   height: 300px;
   background-position: center;
   background-repeat: no-repeat;
@@ -72,6 +73,8 @@ img{
   transform: translate(-50%, -50%);
   color: white;
   font-size: 4rem;
+  margin: auto;
+  padding: auto;
 }
 .two-column1{
   display: grid;
@@ -130,4 +133,41 @@ p{
   padding-top: 50px;
   padding-bottom: 50px;
   font-size: large;
+}
+.hero-image2{
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0, 0, 0, 0.3)),
+  url("20240626_111923.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-image3{
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0, 0, 0, 0.3)),
+  url("20240626_103151.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.three-column{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  width: 90%;
+  margin: auto;
+  margin-top: 50px; 
+  padding: 20px;
+  margin-bottom: 50px;
+  background-color: #c3c3c3;
+}
+.card{
+  background-color: #274C77;
+  padding: 20px;
+}
+.card-text{
+  text-align: center;
+  color: white  ;
 }
